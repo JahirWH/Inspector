@@ -9,8 +9,6 @@ Here you will find everything used to make the tool work properly like :
 """
 
 
-
-
 # List all colors used
 """
 Colors palette used -> https://www.webucator.com/article/python-color-constants-module/
@@ -52,6 +50,7 @@ def free_lookup(phone) -> None:
     url = "https://free-lookup.net/{}".format(phone)
 
     return url
+
 
 def tellows(phone) -> None:
     url = "https://www.tellows.fr/num/{}".format(phone)
